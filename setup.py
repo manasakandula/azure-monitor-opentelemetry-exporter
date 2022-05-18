@@ -48,13 +48,13 @@ if not version:
 setup(
     name=PACKAGE_NAME,
     version=version,
-    description='Microsoft {} Client Library for Python'.format(PACKAGE_PPRINT_NAME),
+    description=' Clone of Microsoft {} Client Library for Python'.format(PACKAGE_PPRINT_NAME),
     long_description=open('README.md', 'r').read(),
     long_description_content_type='text/markdown',
     license='MIT License',
     author='Microsoft Corporation',
     author_email='ascl@microsoft.com',
-    url='https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/monitor/azure-monitor-opentelemetry-exporter',
+    url='https://github.com/manasakandula/azure-monitor-opentelemetry-exporter',
     classifiers=[
         "Development Status :: 4 - Beta",
         'Programming Language :: Python',
